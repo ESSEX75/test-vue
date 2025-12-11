@@ -19,7 +19,7 @@ export function setupAuthGuard(router: Router) {
     if (to.path === '/orders' && token) {
       const ordersStore = useOrdersStore()
 
-      if (!ordersStore.hasOrders && !ordersStore.isLoading) {
+      if (!ordersStore.hasOrders) {
         await ordersStore.getOrders()
       }
     }
