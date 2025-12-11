@@ -1,0 +1,16 @@
+.input-field {
+  min-width: 200px;
+  height: 40px;
+  border: 1px solid #e2e1e1;
+  border-radius: 4px;
+  padding: 0 10px;
+  background-color: #ffffff;
+  font-size: 14px;
+  outline: none;
+  border-radius: 100px;
+  transition: border-color 0.2s;
+}
+
+.input-field:focus {
+  border-color: #165996;
+}

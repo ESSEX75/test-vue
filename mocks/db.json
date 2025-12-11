@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "id": 789,
+      "name": "Степан Степанов",
+      "address": "Екатеринбург, улица Челюскинцев, 222",
+      "date": "2022-08-20",
+      "status": "COMPLETED",
+      "comment": "нет домофона"
+    },
+    {
+      "id": 889,
+      "name": "Алекстандр Степанов",
+      "address": "Екатеринбург, улица Мамина-Сибиряка, 193",
+      "date": "2022-05-20",
+      "status": "COMPLETED",
+      "comment": "нет домофона"
+    },
+    {
+      "id": 19,
+      "name": "Иван Иванов",
+      "address": "Мамина-Сибиряка 193",
+      "comment": "нет домофона",
+      "date": "2025-12-11T23:49:11.220Z",
+      "status": "NEW"
+    },
+    {
+      "id": 5,
+      "name": "Иван Иванов",
+      "address": "Адрес",
+      "comment": "нет домофона",
+      "date": "2025-12-11T23:49:26.224Z",
+      "status": "NEW"
+    }
+  ],
+  "users": [
+    {
+      "accessToken": "accessToken",
+      "user": "admin",
+      "password": "123123123",
+      "name": "Иван Иванов",
+      "role": "ADMIN"
+    },
+    {
+      "accessToken": "accessToken",
+      "user": "user",
+      "password": "123123123",
+      "name": "Петр Петров",
+      "role": "USER"
+    }
+  ]
+}

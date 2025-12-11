@@ -1,0 +1,44 @@
+.login-wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #e2e1e1;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.login-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.error-login {
+  font-size: 14px;
+  font-weight: 400;
+  color: red;
+}
+
+.login-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+
+.login-error-wrapper {
+  width: 100%;
+  padding-bottom: 40px;
+}
